@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/outlinebuttonshape"
+        android:padding="20dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/profileicon"
+                android:layout_height="70dp">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorDark"
+                    android:layout_height="wrap_content"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="A+ 0.0km"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="40dp"
+                android:src="@drawable/hearticon"
+                android:layout_height="70dp">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_need"
+                android:layout_width="wrap_content"
+                android:text="Need "
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textSize="17dp"
+                android:textColor="@color/colorDark"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:id="@+id/txt_BloodGrp"
+                android:layout_width="wrap_content"
+                android:text="Blood Group "
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorDark"
+                android:layout_height="wrap_content"></TextView>
+            <Button
+                android:id="@+id/btn_donateBlood"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="Donate Blood"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
