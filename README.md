@@ -48,7 +48,7 @@ See the [contribution wiki page](https://github.com/Akshay0701/food_delivery_app
 <b> Application Link & Future Scope : </b>
 
 The app is currently in the Alpha testing phase with GNITS institute with a limited no. of users, You can access the app : [App](https://github.com/Akshay0701/BloodDonationApp/blob/master/blooddonation.apk).
-Once the app is fully tested and functional in GNITS institute, we plan to talk to neighboring colleges also to propose this app idea and collaborate with them on this transportation service. We aim that by next year most of the colleges in our district will use Bus tracking apps to check out their bus routes and be informed all the time. Also we are planning to include emergency SOS features for students traveling in busses if they are stuck somewhere
+
 
 License
 -------
